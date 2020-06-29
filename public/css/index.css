@@ -1,0 +1,93 @@
+.container-fluid{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+}
+/* 顶部底图 */
+.top_img_height{
+    height: 155px;
+    background:url("../img/top_bander.png") center top no-repeat;
+    background-size: auto 100%;
+}
+.top_all_nav{
+    height:56px;
+    padding: 10px 24px 10px 24px;
+    background-image: linear-gradient(to bottom,rgba(39, 39, 39, 0.267) 0%, rgba(48, 48, 48, 0) 90%);
+}
+/* 顶部左边导航 */
+.top_nav_font a{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 36px;
+    text-decoration: none;
+    color:aliceblue;
+    text-shadow:0px 0px 1px snow;
+}
+.top_nav_font svg{
+    position: relative;
+    top:5px;
+}
+.left_top_nav{
+    width: 500px;height: 36px;
+}
+/* 顶部中间搜索 */
+.top_middle_search{
+    width: 401px;height: 36px;
+}
+.top_middle_search input{
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    color: darkgray;
+    font-size: 14px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.search_btn{
+    display: block;
+    width:48px;height: 36px;
+    background: #e7e7e7;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: center;
+    padding: 5px 0;
+}
+/* 顶部右边导航 */
+.top_right_nav{
+    width: 340px;height: 36px;
+}
+.top_right_nav a>div{
+    width: 36px;height: 36px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.right_contribute_btn{
+    width: 100px;height: 36px;
+    outline: none;
+    border-radius: 3px;
+    border:none;
+    background: #fb7299;
+    color: white;
+}
+.bilibilix_img{
+    width: 162.38px;height: 77.5px;
+    position: relative;
+    left: 130px;
+}
+/* 二级导航栏 */
+.b_wrap{
+    width: 1198px;height: 68px;
+    padding: 20px 0;
+    box-sizing: content-box;
+    background: rgba(82, 82, 82, 0.329);
+    margin: 0 auto;
+}
+.b_wrap>div{
+    width: 200px;
+}
+.b_wrap span{
+    display: inline-block;
+    height: 46px;
+    border-left: 1px solid #e7e7e7;
+    margin: 0 8px;
+}
